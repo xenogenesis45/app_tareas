@@ -1,0 +1,12 @@
+en la api- npm run dev
+para actualizar la vista- tsc
+para la vista- npm start
+
+//En el package.json colocar, si no funciona con el swagger
+
+   "scripts": {
+     "build": "tsc -w",
+   "dev": "nodemon dist/index.js"
+    },
+    
+"start": "react-scripts start",
